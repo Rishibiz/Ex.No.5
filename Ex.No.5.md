@@ -18,7 +18,8 @@ Cron jobs use a specific format to define the schedule and command to be execute
 minute hour day of month month day of week command 
 Each field is separated by a space and defines a specific value or range of values. An asterisk (*) in 
 any field represents "all possible values" for that field. 
-In this case, the cron job is defined as follows: 
+In this case, the cron job is defined as follows:
+
 • Minute: 30 - This means the job will run at the 30th minute of every hour. 
 • Hour: 12 - This means the job will run at 12 o'clock. 
 • Day of month: * - This wildcard symbol indicates that the job will run on every day of the 
@@ -31,7 +32,7 @@ be executed. The /bin/bash part tells the system to use the Bash shell to execut
 script. The /home/harry/backup.sh part specifies the path to the script that will be 
 run. 
 
-3. Saving the crontab
+4. Saving the crontab
 A er edi ng the crontab file, the user would typically save and exit the text editor. Since we don't 
 see the specific commands used to save the file, I can't say for sure how this was done in this 
 instance. 
